@@ -45,8 +45,7 @@ For instance, the stopping of <sup>64</sup>Fe ions at 100 MeV/u in
 ```
 import PyAtima as pa
 
-atima = pa.PyAtima(Zp=26,Ap=64,E=100,
-					Zt=4,At=9.01,t=100)
+atima = pa.PyAtima(Zp=26,Ap=64,E=100,Zt=4,At=9.01,t=100)
 ```
 
 Results of the calculation are stored in the dictionary
