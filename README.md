@@ -39,6 +39,24 @@ in the command line.
 * At: Molar mass of target [u].
 * t:  Target thickness [mg/cm2].
 
+For instance, the stopping of <sup>64</sup>Fe ions at 100 MeV/u in 
+100 mg/cm<sup>2</sup> of beryllium is calculated via
+
+```
+import PyAtima as pa
+
+atima = pa.PyAtima(Zp=26,Ap=64,E=100,
+					Zt=4,At=9.01,t=100)
+```
+
+Results of the calculation are stored in the dictionary
+
+```
+atima.results
+```
+
+A minimal example can be found in the [example](example) directory.
+
 ## License
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
