@@ -69,4 +69,4 @@ Copyright (C) 2023 Tobias Beck (beck@frib.msu.de)
 
 ## References
 
-<a name='AtimaWeb'>[1]</a> [`Atima web page at GSI`](https://web-docs.gsi.de/~weick/atima/).\
+<a name='AtimaWeb'>[1]</a> [`Atima web page at GSI`](https://web-docs.gsi.de/~weick/atima/).
