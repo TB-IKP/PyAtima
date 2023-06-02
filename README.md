@@ -7,8 +7,8 @@ which is used for the calculation of the slowing down of ions in matter.
 
 ## Dependencies
 
-* Atima [[1]](#AtimaWeb)
-* python (tested with 3.9, 3.10, and 3.11)
+* [Atima](https://web-docs.gsi.de/~weick/atima/)
+* [python](https://www.python.org/) (tested with 3.9, 3.10, and 3.11)
 
 `PyAtima` expects that Atima can be invoked from the command line by calling 
 
@@ -65,7 +65,3 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
 
 Copyright (C) 2023 Tobias Beck (beck@frib.msu.de)
-
-## References
-
-<a name='AtimaWeb'>[1]</a> [`Atima web page at GSI`](https://web-docs.gsi.de/~weick/atima/).
